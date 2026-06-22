@@ -4,7 +4,7 @@ import com.example.api_planets.data.remote.PlanetRemoteDataSource
 import com.example.api_planets.data.remote.Resource
 import com.example.api_planets.domain.model.Planet
 import com.example.api_planets.domain.repository.PlanetRepository
-import jakarta.inject.Inject
+import javax.inject.Inject
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 

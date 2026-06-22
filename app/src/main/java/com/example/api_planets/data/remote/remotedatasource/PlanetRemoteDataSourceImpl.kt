@@ -4,7 +4,7 @@ import com.example.api_planets.data.remote.DragonBallApi
 import com.example.api_planets.data.remote.PlanetRemoteDataSource
 import com.example.api_planets.data.remote.dto.PlanetDto
 import com.example.api_planets.data.remote.dto.PlanetResponseDto
-import jakarta.inject.Inject
+import javax.inject.Inject
 
 class PlanetRemoteDataSourceImpl @Inject constructor(
     private val api: DragonBallApi

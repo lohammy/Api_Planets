@@ -6,7 +6,7 @@ import androidx.annotation.RequiresExtension
 import com.example.api_planets.data.remote.dto.CharacterResponseDto
 import com.example.api_planets.data.remote.DragonBallApi
 import com.example.api_planets.data.remote.dto.CharacterDto
-import jakarta.inject.Inject
+import javax.inject.Inject
 
 class CharacterRemoteDataSource @Inject constructor(
     private val api: DragonBallApi
